@@ -25,7 +25,7 @@ function App() {
       { question: 'What is Influencer Marketing?', answer: 'Influencer marketing is a type of social media marketing that uses endorsements and product mentions from individuals who have a dedicated social following and are viewed as experts in their niche.' },
       { question: 'How Does Influencer Marketing Work?', answer: 'It involves a brand collaborating with an online influencer to market a product or service. The collaboration typically results in sponsored content where the influencer promotes the brand to their followers.' },
       { question: 'Why is Influencer Marketing Important?', answer: 'It builds trust and credibility, reaches target audiences effectively, and often results in higher ROI compared to traditional advertising.' },
-      { question: 'How Can I Find the Right Influencers for My Brand?', answer: 'Platforms like Collabstr offer search tools and categories to filter influencers by niche, platform, follower count, and more to ensure a perfect brand-creator match.' },
+      { question: 'How Can I Find the Right Influencers for My Brand?', answer: 'Platforms like InfluenceHub offer search tools and categories to filter influencers by niche, platform, follower count, and more to ensure a perfect brand-creator match.' },
       { question: 'What Are the Benefits of Influencer Marketing for My brand?', answer: 'Increased brand awareness, improved sales, creation of authentic content, and building trust with your customer base.' },
       { question: 'How Much Does Influencer Marketing Cost?', answer: 'Costs vary widely based on the influencer\'s reach, platform, engagement rate, and the scope of the campaign. Prices can range from $50 to well over $15,000 per post.' },
   ];
@@ -52,9 +52,9 @@ function App() {
     },
   };
   const reviews = [
-      { quote: "I've used Collabstr from both the Creator side and the Brand side! It is extremely user-friendly and has lead to some great relationships with creators/brands I wouldn't have been connected to otherwise. Love the platform!", author: 'Layla', title: 'Influencer & Founder' },
-      { quote: "Best platform to connect with influencers and content creators. I've signed up to many platforms; collabstr is the easiest to use and gives the best results for my brand.", author: 'Myriam', title: 'Founder of BBeyond' },
-      { quote: "Been using Collabstr to generate content for our seasonal clothing lines. Super easy for us to search for relevant influencers and pay them. We save at least 10-20 hours a month on recruiting.", author: 'Courtney', title: 'Marketer' },
+      { quote: "I've used InfluenceHub from both the Creator side and the Brand side! It is extremely user-friendly and has lead to some great relationships with creators/brands I wouldn't have been connected to otherwise. Love the platform!", author: 'Layla', title: 'Influencer & Founder' },
+      { quote: "Best platform to connect with influencers and content creators. I've signed up to many platforms; InfluenceHub is the easiest to use and gives the best results for my brand.", author: 'Myriam', title: 'Founder of BBeyond' },
+      { quote: "Been using InfluenceHub to generate content for our seasonal clothing lines. Super easy for us to search for relevant influencers and pay them. We save at least 10-20 hours a month on recruiting.", author: 'Courtney', title: 'Marketer' },
   ];
   const footerLinks = {
       Resources: [
@@ -149,7 +149,7 @@ function App() {
       <header className="py-4 shadow-md sticky top-0 z-10 bg-white">
         <div className="container mx-auto px-4 md:px-8 flex justify-between items-center">
           <div className="text-2xl font-bold flex items-center">
-            <span className="text-pink-500">collabstr</span>
+            <span className="text-pink-500">InfluenceHub</span>
             <span className="text-gray-700">♥</span>
           </div>
           {/* Hide Nav items on smaller screens, can add a mobile menu icon here */}
@@ -264,7 +264,7 @@ function App() {
         {/* 5. Review Section */}
         <section className="text-center py-12 md:py-16 bg-gray-50 rounded-lg my-12 md:my-16">
             <h2 className="text-3xl md:text-4xl font-extrabold text-gray-800 mb-8 md:mb-12">
-                250,000+ Brands Work With Influencers on Collabstr
+                250,000+ Brands Work With Influencers on InfluenceHub
             </h2>
             {/* Reviews: 1 col on mobile, 3 on desktop */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 text-left px-4">
